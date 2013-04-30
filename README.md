@@ -20,11 +20,11 @@ To evaluate a Clojure file inside of your project the current plugin is a little
 
    Project Home  
    |  
-   |- src  
+   |*** src  
    |  
-   |-|- <directory>  
+   |***|*** &lt;directory&lt;  
    |  
-   |-|-|- core.clj  
+   |***|***|*** core.clj  
 
 So if you want to run core.clj within the environment enter:
 
