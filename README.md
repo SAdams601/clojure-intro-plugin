@@ -22,11 +22,11 @@ To evaluate a Clojure file inside of your project the current plugin is a little
    |  
    |*** src  
    |  
-   |***|*** &lt;directory&lt;  
+   |***|*** &lt;directory&gt;  
    |  
    |***|***|*** core.clj  
 
-So if you want to run core.clj within the environment enter:
+So if you want to run core.clj within the plugin environment enter:
 
     $ lein clojure-intro-plugin <directory>
 
