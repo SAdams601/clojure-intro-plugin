@@ -1,22 +1,16 @@
 # clojure-intro-plugin
 
-A Leiningen plugin to do many wonderful things.
+A Leiningen plugin that catches thrown exceptions and reformats them to have more beginner friendly messages.
 
 ## Usage
 
-FIXME: Use this for user-level plugins:
-
-Put `[clojure-intro-plugin "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
-`:user` profile, or if you are on Leiningen 1.x do `lein plugin install
-clojure-intro-plugin 0.1.0-SNAPSHOT`.
-
-FIXME: Use this for project-level plugins:
+INSTALLATION: 
 
 Put `[clojure-intro-plugin "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
 
-FIXME: and add an example usage that actually makes sense:
+To evaluate a Clojure file inside of your project :
 
-    $ lein clojure-intro-plugin
+    $ lein clojure-intro-plugin 
 
 ## License
 
