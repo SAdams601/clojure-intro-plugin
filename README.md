@@ -10,7 +10,7 @@ In the directory you downloaded this repo run:
    
    $ lein install
 
-# ADDING THE PLUGIN TO AN EXISTING LEININGEN PROJECT
+# Adding the Plugin to an Existing Leiningen Project
 
 Put `[clojure-intro-plugin "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
 
