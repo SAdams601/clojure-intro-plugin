@@ -22,7 +22,7 @@ To evaluate a Clojure file inside of your project the current plugin is a little
    |  
    |*** src  
    |  
-   |***|*** &lt;directory&lt;  
+   |***|*** &lt;directory&gt;  
    |  
    |***|***|*** core.clj  
 
