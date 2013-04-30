@@ -2,15 +2,33 @@
 
 A Leiningen plugin that catches thrown exceptions and reformats them to have more beginner friendly messages.
 
-## Usage
+## INSTALLATION 
 
-INSTALLATION: 
+Fork or clone this repository and download it to you computer.
+
+In the directory you downloaded this repo run:
+   
+   $ lein install
+
+# ADDING THE PLUGIN TO AN EXISTING LEININGEN PROJECT
 
 Put `[clojure-intro-plugin "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
 
-To evaluate a Clojure file inside of your project :
+## USAGE
 
-    $ lein clojure-intro-plugin 
+To evaluate a Clojure file inside of your project the current plugin is a little bit dumb and expects you to use the standard Leiningen file format of:
+
+   Project Home
+   |
+   |- src
+   |
+   |-|- <directory>
+   |
+   |-|-|- core.clj
+
+So if you want to run core.clj within the environment enter:
+
+    $ lein clojure-intro-plugin <directory>
 
 ## License
 
