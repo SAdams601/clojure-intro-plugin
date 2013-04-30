@@ -18,13 +18,13 @@ Put `[clojure-intro-plugin "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
 
 To evaluate a Clojure file inside of your project the current plugin is a little bit dumb and expects you to use the standard Leiningen file format of:
 
-   Project Home
-   |
-   |- src
-   |
-   |-|- <directory>
-   |
-   |-|-|- core.clj
+   Project Home  
+   |  
+   |- src  
+   |  
+   |-|- <directory>  
+   |  
+   |-|-|- core.clj  
 
 So if you want to run core.clj within the environment enter:
 
