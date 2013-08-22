@@ -15,23 +15,12 @@ In the directory you downloaded this repo run:
 Put `[clojure-intro-plugin "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
 
 ## USAGE
+   Using the command:
+    $ lein clojure-intro-plugin
 
-To evaluate a Clojure file inside of your project the current plugin is a little bit dumb and expects you to use the standard Leiningen file format of:
-
-   Project Home  
-   |  
-   |*** src  
-   |  
-   |***|*** &lt;directory&gt;  
-   |  
-   |***|***|*** core.clj  
-
-So if you want to run core.clj within the plugin environment enter:
-
-    $ lein clojure-intro-plugin <directory>
-
+    Will open a file chooser and whatever file you select will be evaluated.
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013
 
 Distributed under the Eclipse Public License, the same as Clojure.
