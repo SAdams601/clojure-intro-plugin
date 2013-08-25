@@ -1,1 +1,4 @@
 (require 'intro.core)
+(System.getProperty "user.dir")
+(System/getProperty "user.dir")
+(. System exit 0)

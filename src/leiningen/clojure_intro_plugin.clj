@@ -4,7 +4,7 @@
 (defn clojure-intro-plugin
         "I don't do a lot."
         [project & args]
-          (let [file (seesaw/choose-file)]
+          (let [file (seesaw/choose-file :dir (System/getProperty "user.dir"))]
             (if (nil? file) nil 
             	(try (load-file (.getAbsolutePath file))
              	 (catch Throwable e (errors/prettify-exception e)))
